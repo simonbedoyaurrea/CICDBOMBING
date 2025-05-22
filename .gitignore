@@ -1,0 +1,15 @@
+# Claves privadas (NUNCA subir esto)
+mi_llave.pem
+mi_llave.pem.pum
+
+
+# Archivos de Terraform que no necesitas versionar
+*.tfstate
+*.tfstate.backup
+
+# Variables con datos sensibles (si no quieres compartirlas)
+terraform.tfvars
+
+# Archivos de salida o temporales
+*.log
+*.out
