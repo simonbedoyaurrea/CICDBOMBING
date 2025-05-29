@@ -32,3 +32,5 @@ terraform apply
 
 ---
 
+# al buscar la ip en el navegador nos deberia de salir un juego de apuestas, hay que tener cuidado de usar el puerto 80 o http y no https
+
