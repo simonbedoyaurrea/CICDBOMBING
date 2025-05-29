@@ -93,7 +93,7 @@ resource "aws_key_pair" "deployer_key" {
 }
 
 # Instancia EC2
-resource "aws_instance" "web_server" {
+resource "aws_instance" "simon_instancia" {
   ami                    = var.ami_id
   instance_type          = "t3.large"  # 2 vCPU y 8GB RAM
   subnet_id              = aws_subnet.public_subnet.id
