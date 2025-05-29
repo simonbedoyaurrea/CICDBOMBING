@@ -6,12 +6,15 @@
 
 ```bash
 # instalar awscli
-sudo apt install
+sudo apt update
+sudo apt install awscli
+
 ```
 
 ```bash
 #instalar terraform
-sudo apt install
+sudo apt update
+sudo apt install terraform
 ```
 
 ```bash
