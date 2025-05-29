@@ -7,3 +7,28 @@
 ```bash
 # instalar awscli
 sudo apt install
+
+#instalar terraform
+sudo apt install
+
+#crear la carpeta .aws en la raiz
+mkdir .aws
+
+#dentro de aws crear el archivo credentials y copiamos las credenciales
+touch credentials
+
+#clonamos el repositorio
+git clone https://github.com/simonbedoyaurrea/CICDBOMBING.git
+
+#dentro creamos la llave con el comando para la llave
+ssh-keygen -t rsa -b 4096 -f mi_llave.pem
+
+#ejecutamos terraform init
+terraform init
+
+#ejecutamos terraform apply
+terraform apply
+```
+
+---
+
