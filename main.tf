@@ -88,7 +88,7 @@ resource "aws_security_group" "web_sg" {
 
 # Clave SSH
 resource "aws_key_pair" "deployer_key" {
-  key_name   = "mi_clave"
+  key_name   = "simon_key"
   public_key = file("${path.module}/mi_llave.pem.pub")  # Debes tener el archivo `.pem.pub`
 }
 
