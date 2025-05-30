@@ -108,6 +108,6 @@ resource "aws_instance" "simon_instancia" {
   user_data = file("${path.module}/script.sh")
 
   tags = {
-    Name = "UbuntuWebServer"
+    Name = "SimonInstancia"
   }
 }
